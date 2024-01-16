@@ -1,0 +1,14 @@
+[package]
+name = "yoimiya"
+version = "0.1.0"
+edition = "2021"
+description = "Easy way to send notifications, including Bark, Mail..."
+repository = "https://github.com/B1ACK917/Yoimiya"
+license-file="LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.79"
+reqwest = { version = "0.11.23", features = ["json"] }
+tokio = { version = "1.0.0", features = ["full"] }
